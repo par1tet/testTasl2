@@ -1,0 +1,50 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main__cat {
+  margin-top: 30px;
+  border-radius: 39px;
+}
+
+.main__loadcat {
+  display: flex;
+  margin-top: 53px;
+  gap: 41px;
+}
+
+.main__loadcat_input {
+  width: 281px;
+  height: 119px;
+  border: 2px solid black;
+  font-weight: 400;
+  width: 217px;
+  height: 51px;
+  padding: 32px 39px;
+  font-size: 32px;
+}
+
+.main__loadcat_load {
+  width: 281px;
+  height: 119px;
+  border: 2px solid black;
+  font-weight: 400;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+.main__lastfive {
+  margin-top: 70px;
+}
+
+/*# sourceMappingURL=main.css.map */
